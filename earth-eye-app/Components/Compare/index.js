@@ -3,12 +3,20 @@ import React, { Component } from "react";
 // NativeBase Components
 import { Container, Header, Text } from "native-base";
 
+// Components
+import AppFooter from "../AppFooter";
+
 // Style
 import styles from "./styles";
 
 class Compare extends Component {
   render() {
-    return <Text>Compare Page</Text>;
+    return (
+      <Container>
+        <Text>Compare Page</Text>
+        <AppFooter />
+      </Container>
+    );
   }
 }
 

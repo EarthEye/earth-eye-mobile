@@ -6,10 +6,6 @@ import { Container, Header, Button, Text, View } from "native-base";
 // Style
 import styles from "./styles";
 
-// Components
-import Compare from "../Compare";
-// eventualy import Measure as well
-
 class LandingPage extends Component {
   handlePressCompare() {
     this.props.navigation.navigate("Compare");
