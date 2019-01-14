@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
 // NativeBase Components
-import { Container, Header, Text } from "native-base";
+import { Container, Header, Text, Input } from "native-base";
+import { Image } from "react-native";
 
 // Components
 import AppFooter from "../AppFooter";
+import CameraScreen from "../CameraScreen";
 
 // Style
 import styles from "./styles";
@@ -14,6 +16,8 @@ class Compare extends Component {
     return (
       <Container>
         <Text>Compare Page</Text>
+        <CameraScreen />
+        <CameraScreen />
         <AppFooter />
       </Container>
     );

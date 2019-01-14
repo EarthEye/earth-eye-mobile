@@ -1,11 +1,16 @@
 import { StyleSheet } from "react-native";
+import { Row } from "native-base";
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#5cd6d6",
-    opacity: 0.6
+    backgroundColor: "skyblue",
+    opacity: 0.6,
+    flex: 1,
+    justifyContent: "row",
+    justifyContent: "center",
+    alignItems: "stretch"
   },
   topheader: {
-    backgroundColor: "#5cd6d6",
+    backgroundColor: "skyblue",
     opacity: 0
   },
   icon: {
@@ -19,9 +24,10 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "white",
-    fontSize: 15,
+    fontSize: 20,
     marginTop: 19,
-    opacity: 1
+    opacity: 1,
+    position: "relative"
   },
   header: {
     color: "white",
@@ -49,6 +55,8 @@ const styles = StyleSheet.create({
     opacity: 1
   },
   background: { height: "100%", width: "100%", flex: 1 },
-  transparent: { backgroundColor: "transparent" }
+  transparent: {
+    backgroundColor: "skyblue"
+  }
 });
 export default styles;
